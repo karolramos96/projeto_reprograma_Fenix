@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>formulario colaboradora</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="form.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+  </head>
+<body>
+    <main>
+        <header class="orange">
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
+                    <a class="navbar-brand ml-5 " href="index.html"> <img class="logo" src="images/logo.png"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                          <div class="navbar-nav ">
+                            <a class="nav-item nav-link text-white font-weight-bold" href="index.html">Voltar</a>
+                            
+                          </div>
+                        </div>
+                      </nav>
+        </header>
+        <section>
+          <h1>Bem-vinda Voluntária</h1>
+          <p>Realizando seu cadastro você receberá um email solicitando seu planejamento de aulas 
+            para avaliarmos e se estiver tudo ok, você passa a fazer parte da nossa equipe de professoras
+            voluntárias.
+            Boa sorte! ;)
+          </p>
+
+            <form class="needs-validation" novalidate>
+              <div class="form-row">
+                
+                  
+                <div class="col-md-5 mb-3 mr-5 ml-5">
+                  <label for="validationCustom02"> Qual seu nome?</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="nome completo" required>
+                  <div class="valid-feedback">
+                   
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationCustomUsername">Escolha seu nome de usuario</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="validationCustomUsername" placeholder="usuario" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                     Por favor insira um nome de usuario.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-4 mb-2 ml-5 mr-5">
+                  <label for="validationCustom03">De onde você é?</label>
+                  <input type="text" class="form-control" id="validationCustom03" placeholder="são paulo/SP" required>
+                  <div class="invalid-feedback">
+                  Por favor insira sua cidade e estado.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationCustom04">Qual é o seu email?</label>
+                  <input type="text" class="form-control" id="validationCustom04" placeholder="eu@email.com" required>
+                  <div class="invalid-feedback">
+                    Por favor insira um email válido.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationCustom05">Qual a sua profissão?</label>
+                  <input type="text" class="form-control" id="validationCustom05" placeholder="Arquiteta" required>
+                  <div class="invalid-feedback">
+                    Por favor insira sua profissão.
+                  </div>
+                </div>
+                <div class="form-group ml-5 mr-5">
+                    <label for="exampleFormControlTextarea1">Nos conte um pouco sobre o que gostaria de ensinar</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+              </div>
+              
+              <button class=" ml-5 btn-orange" type="submit">Submit form</button>
+            </form>
+             </section>
+    </main>
+    <script type="text/javascript" src="validaForm1.js"></script>
+</body>
+</html>

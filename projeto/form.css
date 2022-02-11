@@ -1,0 +1,71 @@
+.orange{
+    background-color: #fa885b;
+}
+
+section>h1{
+    color: rgb(255, 119, 78);
+    padding-top: 70px;
+    text-align: center;
+    font-family: 'arial';
+    font-size: 50px;
+    letter-spacing: 0.5px;
+  
+  }
+
+  section>p{
+    font-family: 'arial';
+    color: rgb(46, 46, 46);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.166667px;
+    /* line-height: 35px;   */
+    padding-left: 40px;
+    padding-right: 50px;
+    
+  }
+
+  .logo{
+    width: 70px;
+  }
+  button {
+    border-radius: 10px !important;
+    border: none;
+    cursor: pointer; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.43px;
+    padding: 16px 45px;
+    text-align: center;
+    
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 414px)  {
+    button {
+     
+      font-size: 14px;
+      padding: 16px 40px;
+    }
+  }
+  
+  button:focus {
+    outline:0;
+  }
+  
+  button, .btn-white {
+    background-color: #FFFFFF;
+    color: rgb(255, 119, 78);
+  }
+
+  button, .btn-orange {
+    background-color:rgb(255, 119, 78);
+    color:#ffffff
+  }
+  
+  .btn-white:hover {
+    background-color: rgb(255, 119, 78);
+    color: #ffffff;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+  }
